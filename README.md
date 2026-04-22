@@ -21,7 +21,7 @@ Using crontab command:
 $ crontab -e  
 In vim, insert following words and wq:  
 0 12 * * * AutoDownload_main_daily_auto_run.sh  
-This means every 12:00 BJT, yesterday's pictures from 00:00 to 24:00 UTC are to be downloaded.  
+This means every 12:00 LST, yesterday's pictures from 00:00 to 24:00 UTC are to be downloaded.  
   
 1. Run manually   
 $ vim AutoDownload_main.py  
