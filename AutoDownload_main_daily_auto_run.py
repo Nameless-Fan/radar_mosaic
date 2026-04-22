@@ -21,8 +21,8 @@ if __name__ == '__main__':
     begintime=begintime.strftime('%Y%m%d%H%M')
     endtime=endtime.strftime('%Y%m%d%H%M')
     ###########################################################################################################################
-    pypath= '/home/bofan/notebook/AutoDownload/'
-    picpath= '/data/bofan/NMC_Pictures/'
+    pypath= '/home/fan/notebook/AutoDownload/'
+    picpath= '/data/fan/NMC_Pictures/'
    
     os.system('python %sAutoDownload_NMC_Pictures.py -o radar -b %s -e %s -p %s'%(pypath,begintime,endtime,picpath))
     os.system('python %sAutoDownload_NMC_Pictures.py -o satellite -b %s -e %s -p %s'%(pypath,begintime,endtime,picpath))
